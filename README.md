@@ -8,19 +8,19 @@ Data: `Northwind_small.sqlite` (sample data, no real company data).
 Tool: DB Browser for SQLite. All queries are in `queries.sql`.
 
 ## 1. Which products are at or below their reorder level?
-![Low stock products](docs Sql/query1-low-stock.png)
+![Low stock products](docs/query1-low-stock.png)
 
 ## 2. How many days does each shipping company take to ship an order?
-![Days to ship by shipping company](docs Sql/query2-shipping-days.png)
+![Days to ship by shipping company](docs/query2-shipping-days.png)
 
 ## 3. What share of orders ships after the required date?
-![Late orders](docs Sql/query3-late-orders.png)
+![Late orders](docs/query3-late-orders.png)
 
 ## 4. Which product categories bring the most revenue?
-![Revenue by category](docs Sql/query4-revenue-by-category.png)
+![Revenue by category](docs/query4-revenue-by-category.png)
 
 ## 5. Who are the top 10 customers by revenue?
-![Top customers](docs Sql/query5-top-customers.png)
+![Top customers](docs/query5-top-customers.png)
 
 ## Findings
 - At least 18 products are at or below their reorder level; Gorgonzola Telino is out of stock (0 units, reorder level 20) and should be reordered first.
